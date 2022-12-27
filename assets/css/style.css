@@ -1,0 +1,224 @@
+    :root{ 
+    --black: #000;
+    --white: #fff;
+    --blue: #1b51ff;
+    --rubik: 'Rubik';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+@font-face{
+    font-family: 'Rubik';
+    src: url(../Fonts/Rubik/static/Rubik-Regular.ttf);
+}
+img{
+    background-position: center;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
+/* Navbar */
+.navbar ul li{
+    font-size: 15px;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #0d46fd !important;
+}
+
+/* Slider */
+.carousel-inner h5{
+    font-size: 50px;
+    font-weight: 900;
+}
+/* Recently Added Sec */
+.recently-add h2{
+    font-weight: 600;
+}
+.recently-add-title a{
+    color: var(--blue);
+    padding: 10px 15px;
+    border: 1px solid var(--blue);
+    transition: 0.4s;
+}
+.recently-add-title a:hover{
+    background-color: var(--blue);
+    color: var(--white);
+}
+.carousel-indicators button{
+    margin-bottom: 3px !important;
+    border-bottom: none !important;
+}
+.recently-add-content{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: white;
+}
+.recently-add-content:hover{
+    background-color:#f7f7f7;
+}
+.recently-add-content span{
+    color: var(--blue);
+    font-size: 14px;
+}
+/* porshe models */
+.porshe-models-items a{
+    padding: 15px 20px;
+    color: white;
+}
+.porshe-models-items a:first-child{
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+.porshe-models-items a:nth-child(2){
+    border: 1px solid white;
+    transition: 0.4s;
+}
+.porshe-models-items a:hover:nth-child(2){
+    background-color: var(--blue);
+}
+/* Tesla Models */
+
+.tesla-models-items a{
+    padding: 15px 20px;
+    color: white;
+}
+.tesla-models-items a:first-child{
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+.tesla-models-items a:nth-child(2){
+    border: 1px solid white;
+    transition: 0.4s;
+}
+.tesla-models-items a:hover:nth-child(2){
+    background-color: var(--blue);
+}
+/*  Dealer near */
+.dealers-details h4{
+    color: var(--blue) !important;
+}
+.dealers-contact i{
+    color: var(--blue);
+    font-size: 20px;
+}
+.dealers-btn a{
+    transition: 0.4s;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.dealers-btn a:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;    
+}
+/* All Vehicles */
+.vehicles-category ul li .active{
+    padding: 15px 20px;
+    color: white;
+    background-color: var(--blue);
+	border: 1px solid var(--blue);
+	display: inline-block;
+}
+.vehicles-category ul li a{
+    padding: 15px 20px;
+    border: 1px solid black;
+    color: black ;
+    transition: 0.3s;
+}   
+.vehicles-category ul li a:hover{
+    border: 1px solid var(--blue);
+    color: white;
+    background-color: var(--blue);
+}
+.bodytype .active{
+    font-weight: 600;
+}
+.bodytype .body-category a{
+    color: black;
+    transition: 0.3s;
+    opacity: 0.4;
+}
+.bodytype .body-category a:hover{
+    opacity: 1;
+}
+.vehicles-items{
+    background-color: #e8e8e8;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+/* Services */
+.service-items{
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    border-bottom: 3px solid var(--blue);
+}
+.service-items i{
+    color: var(--blue);
+}
+.service-items span{
+    background-color: var(--blue);
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+}
+.service-items a{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+/* Our Selling */
+.our-selling{
+    background-color: var(--blue);
+}
+/* Our brand cars */
+.our-brands{
+    background-image: url(../Images/Bg\ Image.png);
+}
+.brand-content p{
+    line-height: 22px;
+}
+/* footer */
+footer{
+    background-color: var(--blue);
+}
+.search-bar a{
+    left: 90%;
+    padding: 9px 15px;
+    background-color: gray;
+}
+/*Accessories page ----css------*/
+.box_shedow{
+    box-shadow: 0px 10px 15px -3px rgb(0 0 0 / 10%);
+}
+.accessories-search input{
+    border-right: 3px solid var(--blue) !important;
+}
+.accessories-search i{
+    right: 29px;
+    color: var(--blue);
+    font-size: 16px;
+}
+.accessories-btn{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: var(--blue);
+}
+/* FAQ PAGE */
+.faq-item{
+    align-items: center;
+    height: 100px;
+    width: 200px;
+    transition: 0.3s ease;
+}
+.faq-item:hover{
+    background-color:#f1f1f1;
+}
+/* EMI CALC */
+.calc{
+    width: 700px;
+    box-shadow: 2px 2px 13px 1px rgba(0,0,0,0.79); 
+}
